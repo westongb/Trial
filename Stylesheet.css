@@ -1,29 +1,68 @@
 header{
     background-color: black;
     color:white;
-    text-align: center;
-    padding: 10 10px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 26px;
+    align-items: stretch;
     width: 100%;
-    margin: 20px black;
+}
+
+.name{
+    text-align: left;
+    padding-left: -100px;
 }
 body{
-    background-color: sienna
+    background-color: sienna;
+    margin: 0px;
 }
 
 
-button:hover{
-    background-color:green;
+.navigation{
+    list-style: none;
+    margin: 0;
+
+    display: -webkit-box;
+    display: flex;
+    justify-content: flex-end;
 }
 
-button:active{
-    background-color: purple;
+.navigation a{
+    display: block;
+    padding: 1em;
 }
 
-button:focus{
-    background-color: orange;
+.navigation a:hover{
+    background: sienna;
 }
 
+.container{
+    position: relative;
+}
 
-input:hover{
-    background-color: teal;
+.banner{
+    width: 100%;
+}
+
+.bannertext{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Info{
+    text-align: left;
+    width: 75%;
+    margin-left: 100px;
+}
+
+#inputform{
+    margin-left: 100px;
+}
+
+.myform{
+    margin: 10px;
 }
